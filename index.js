@@ -1,5 +1,9 @@
-import createJS from './dist/createjs.min.js'
+import createjs from 'createjs-collection'
 import zim from './zim.js'
+console.log(zim,createjs);
 
-window.createjs = createJS;
-window.zim = zim;
+const obj = {
+  zim: zim,
+  createjs:createjs
+};
+export default obj;

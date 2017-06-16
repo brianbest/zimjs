@@ -1,5 +1,8 @@
 var zon = true;
-
+import ZimClass from '../index.js';
+console.log(ZimClass);
+window.createjs = ZimClass.createjs;
+window.zim = ZimClass.zim;
 // SCALING OPTIONS
 // scaling can have values as follows with full being the default
 // "fit"		sets canvas and stage to dimensions and scales to fit inside window size

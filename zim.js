@@ -14841,7 +14841,7 @@ The default is "mousedown" - if set to something else the component will act on 
 		this.dispose = function() {
 			but.off(eventType, butEvent);
 			obj.removeChild(but);
-			delete but;
+			//delete but;
 			return true;
 		}
 	}

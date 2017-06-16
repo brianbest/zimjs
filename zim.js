@@ -19548,3 +19548,5 @@ dispose() - clear any event listeners, etc.
 
 	return zim;
 } (zim || {});
+
+module.exports = zim;
